@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/bg2"
+    android:background="@drawable/bg1"
     >
 
     <Button
-        android:id="@+id/btn1"
+        android:id="@+id/btScore"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:background="@drawable/prize"
@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btn2"
+        android:id="@+id/btCredit"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:background="@drawable/about"
@@ -25,7 +25,7 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/btn3"
+        android:id="@+id/btLeave"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginTop="4dp"
@@ -34,16 +34,16 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn4"
+        android:id="@+id/btMusic"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginTop="4dp"
-        android:background="@drawable/setting"
+        android:background="@drawable/sound"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn5"
+        android:id="@+id/btPlay"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="8dp"
@@ -54,16 +54,19 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="270dp"
-        android:layout_height="155dp"
+        android:id="@+id/imLogo"
+        android:layout_width="209dp"
+        android:layout_height="122dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="4dp"
         android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />

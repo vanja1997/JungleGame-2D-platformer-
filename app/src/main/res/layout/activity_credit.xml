@@ -5,7 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".credit"
-    android:background="@drawable/credit"
+    android:background="@drawable/bg3"
     >
+
+    <TextView
+        android:id="@+id/scrd"
+        android:layout_width="328dp"
+        android:layout_height="538dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Réalisés par :\n
+    Vanja Plavsic\n
+    Aness Menaa\n\n
+Source des Assets :\n
+    ansimuz.itch.io\n
+    free-game-assets.itch.io\n\n
+Remerciement à :\n
+    Kevin Havranek"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </android.support.constraint.ConstraintLayout>
